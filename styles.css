@@ -37,13 +37,14 @@ h1 {
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
