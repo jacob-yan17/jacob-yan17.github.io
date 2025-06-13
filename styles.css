@@ -3,6 +3,8 @@
 }
 
 h1 {
+    font: 2.5em "Palatino";
+    font-weight: bold;
     text-align: center;
 }
 
@@ -47,4 +49,38 @@ h1 {
     content: "";
     clear: both;
     display: table;
+}
+
+.about {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.about img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-text {
+    font: 1.2rem "Fira Sans", sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.8em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 40px;
 }
