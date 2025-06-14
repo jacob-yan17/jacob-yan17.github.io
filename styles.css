@@ -3,9 +3,6 @@
 }
 
 h1 {
-<<<<<<< Updated upstream
-    text-align: center;
-=======
     font: 40px "Trebuchet MS";
     font-weight: bold;
     margin-left: 30px;
@@ -92,5 +89,4 @@ figure {
 figcaption {
     text-align: center;
     font-size: 30px;
->>>>>>> Stashed changes
 }
