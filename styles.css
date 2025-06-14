@@ -3,9 +3,15 @@
 }
 
 h1 {
-    font: 2.5em "Palatino";
+    font: 40px "Trebuchet MS";
     font-weight: bold;
-    text-align: center;
+    margin-left: 30px;
+}
+
+h2 {
+    font: 40px "Trebuchet MS";
+    color: rgb(0, 66, 97);
+    margin-left: 50px;
 }
 
 .arrow {
@@ -28,13 +34,13 @@ h1 {
 
 @keyframes animate {
     0% {
-        transform: rotate(45deg) translate(-5px, -5px);
+        transform: rotate(45deg) translate(-3px, -3px);
     }
     50% {
         transform: rotate(45deg) translate(5px, 5px);
     }
     100% {
-        transform: rotate(45deg) translate(-5px, -5px);
+        transform: rotate(45deg) translate(-3px, -3px);
     }
 }
 
@@ -82,5 +88,5 @@ figure {
 
 figcaption {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
