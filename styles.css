@@ -3,5 +3,94 @@
 }
 
 h1 {
+<<<<<<< Updated upstream
     text-align: center;
+=======
+    font: 40px "Trebuchet MS";
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+h2 {
+    font: 40px "Trebuchet MS";
+    color: rgb(0, 66, 97);
+    margin-left: 50px;
+}
+
+.arrow {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.arrow span {
+    display: block;
+    width: 2vw;
+    height: 2vw;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(45deg) translate(-3px, -3px);
+    }
+    50% {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    100% {
+        transform: rotate(45deg) translate(-3px, -3px);
+    }
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.about img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-text {
+    font: 1.2rem "Fira Sans", sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.8em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 30px;
+>>>>>>> Stashed changes
 }
