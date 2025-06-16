@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(189, 255, 198);
+    background-color: rgb(86, 153, 192);
     padding: 10px 30px;
     flex-wrap: wrap;
 }
@@ -14,12 +14,15 @@
 h1 {
     font: 40px "Trebuchet MS";
     font-weight: bold;
-    margin: 0;
+    margin: 5px;
+    background-color: rgb(110, 183, 224);
+    border-radius: 10px;
+    padding: 5px 50px;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: rgb(189, 255, 198);
+    background-color: rgb(86, 153, 192);
     display: flex;
     gap: 20px;
 }
@@ -34,15 +37,19 @@ h1 {
 }
 
 .navbar a:hover {
-    background-color: rgb(22, 128, 63);
+    background-color: rgb(0, 124, 161);
     color: white;
     border-radius: 5px;
 }
 
 .navbar a.active {
-    background-color: rgb(51, 88, 62);
+    background-color: rgb(0, 72, 94);
     color: white;
     border-radius: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h2 {
