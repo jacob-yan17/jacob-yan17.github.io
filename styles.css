@@ -64,12 +64,7 @@ h1 {
 
 html {
     scroll-behavior: smooth;
-}
-
-h2 {
-    font: 40px "Trebuchet MS";
-    color: rgb(0, 66, 97);
-    margin-left: 50px;
+    height: 3000px; /* ================== TEMPORARY ================== */
 }
 
 .arrow {
@@ -147,4 +142,23 @@ figcaption {
     text-align: center;
     font: 30px "Trebuchet MS";
     color: rgb(0, 66, 97);
+}
+
+h2 {
+    font: 40px "Trebuchet MS";
+    color: rgb(0, 66, 97);
+    margin-left: 50px;
+}
+
+p {
+    font: 20px "Trebuchet MS";
+    margin-left: 60px;
+    color: rgb(59, 59, 59);
+    margin-right: 750px;
+}
+
+ul {
+    font: 25px "Trebuchet MS";
+    margin-left: 60px;
+    margin-bottom: 60px;
 }
