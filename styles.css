@@ -145,5 +145,6 @@ figure {
 
 figcaption {
     text-align: center;
-    font-size: 30px;
+    font: 30px "Trebuchet MS";
+    color: rgb(0, 66, 97);
 }
