@@ -144,6 +144,33 @@ figcaption {
     color: rgb(0, 66, 97);
 }
 
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    max-width: 55%;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 100px;
+}
+
 h2 {
     font: 40px "Trebuchet MS";
     color: rgb(0, 66, 97);
@@ -154,11 +181,11 @@ p {
     font: 20px "Trebuchet MS";
     margin-left: 60px;
     color: rgb(59, 59, 59);
-    margin-right: 750px;
+    max-width: 55%;
 }
 
 ul {
     font: 25px "Trebuchet MS";
     margin-left: 60px;
-    margin-bottom: 60px;
+    padding-bottom: 30px;
 }
