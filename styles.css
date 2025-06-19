@@ -64,7 +64,6 @@ h1 {
 
 html {
     scroll-behavior: smooth;
-    height: 3000px; /* ================== TEMPORARY ================== */
 }
 
 .arrow {
@@ -164,11 +163,19 @@ figcaption {
     align-items: center;
 }
 
-.images img {
+.facts-img {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
     margin-right: 100px;
+}
+
+.more-info-img {
+    width: 140%;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 70%;
+    margin-top: 10%;
 }
 
 h2 {
@@ -180,7 +187,7 @@ h2 {
 h3 {
     font: 30px "Trebuchet MS";
     color: rgb(0, 93, 155);
-    margin-left: 55px;
+    margin-left: 75px;
 }
 
 p {
@@ -194,4 +201,8 @@ ul {
     font: 25px "Trebuchet MS";
     margin-left: 60px;
     padding-bottom: 30px;
+}
+
+a {
+    color: black;
 }
