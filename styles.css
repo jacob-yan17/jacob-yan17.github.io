@@ -210,3 +210,15 @@ li {
 a {
     color: black;
 }
+
+.masonry {
+    column-count: 4;
+    column-gap: 16px;
+    padding: 20px;
+}
+
+.masonry img {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
