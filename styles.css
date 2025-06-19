@@ -203,6 +203,10 @@ ul {
     padding-bottom: 30px;
 }
 
+li {
+    margin-bottom: 10px;
+}
+
 a {
     color: black;
 }
