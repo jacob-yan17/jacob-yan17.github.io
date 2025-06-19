@@ -177,6 +177,12 @@ h2 {
     margin-left: 50px;
 }
 
+h3 {
+    font: 30px "Trebuchet MS";
+    color: rgb(0, 93, 155);
+    margin-left: 55px;
+}
+
 p {
     font: 20px "Trebuchet MS";
     margin-left: 60px;
